@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tbj</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* 分配空间，使标题靠上，底部内容靠下 */
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            text-align: center; /* 使标题和底部文字居中对齐 */
+        }
+        h1 {
+            margin: 20px 0; /* 调整标题与上方和下方内容的间距 */
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 100px; /* 调整左右两部分的间距 */
+            margin-top: 20px; /* 给容器和标题之间留出一些空间 */
+        }
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            gap: 50px; /* 调整间距 */
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 80px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        .t1 { background-color: #ffa07a; }
+        .t2 { background-color: #87ceeb; }
+        .t3 { background-color: #b19cd9; }
+    .b1 {
+        text-align: center;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    .b1 a {
+        text-decoration: none;
+        color: #0179ff; /* 保持文字颜色一致 */
+    }
+    </style>
+</head>
+<body>
+    <h1>天白菌的软件库</h1>
+	<h4>点击即可跳转到选择下载方式页面</h4>
+    <div class="container">
+        <div class="left">
+            <a href="wj/wp.html" class="button t1">
+                <span>X（推特）</span>
+            </a>
+            <a href="wj/wp.html" class="button t2">
+                <span>YouTube</span>
+            </a>
+            <a href="wj/wp.html" class="button t3">
+                <span>Google商店</span>
+            </a>
+        </div>
+        <div class="right">
+            <a href="wj/wp.html" class="button t3">
+                <span>Facebook</span>
+            </a>
+            <a href="wj/wp.html" class="button t1">
+                <span>lnstagram</span>
+            </a>
+            <a href="wj/cj.html" class="button t2">
+                <span>抽奖网站</span>
+            </a>
+        </div>
+    </div>
+    <div class="b1">
+        网站归 tbj 版权所有 <a href="https://4090520.xyz/sp.mp4">特批ICP无需备案tbj</a>
+    </div>
+</body>
+</html>
